@@ -208,6 +208,51 @@ select:-webkit-autofill:focus {
 .btn:active{
   opacity: 0.6;
 }
+
+/* HERO */
+.hero {
+  position: relative;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-image: url('../images/hero-bg-desktop.svg');
+  background-color: #FAFAFA;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 595px) -260.7px;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+}
+
+.hero__info {
+  width: 100%;
+  max-width: 447px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 100;
+  color: var(--title-color);
+  letter-spacing: -1px;
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.hero__img {
+  position: absolute;
+  left: calc(50% + 75px);
+  top: -122px;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
